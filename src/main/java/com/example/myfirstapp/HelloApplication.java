@@ -24,6 +24,17 @@ public class HelloApplication extends Application {
 
 
 /*
+Уроки #6
 https://www.youtube.com/watch?v=Jx0DRIlm7Yo&t=84s
+Уроки #7
 https://www.youtube.com/watch?v=aC97NRrTO8E&t=363s
+Уроки #8
+https://www.youtube.com/watch?v=F-x8K0U0Cts&t=315s
+Уроки #9
+https://www.youtube.com/watch?v=7vV6Vj-lhOM&t=547s
+
+
+
+Иконки качай отсюда
+https://www.iconfinder.com/icon-sets/newest
  */
