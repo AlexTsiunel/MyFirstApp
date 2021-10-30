@@ -1,7 +1,10 @@
 package com.example.myfirstapp.database;
 
+import com.example.myfirstapp.User;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DatabaseHandler extends Configs {
@@ -15,5 +18,26 @@ public class DatabaseHandler extends Configs {
 
         dbConnection = DriverManager.getConnection(connectionString, dbUser, dbPass);
         return dbConnection;
+    }
+
+    public void signUpUser(User user) {
+        String insert = "INSERT INTO " + Const.USER_TABLE + "(" +
+                Const.USERS_FIRSTNAME + "," + Const.USERS_LASTNAME + "," +
+                Const.USERS_USERNAME + "," + Const.USERS_PASSWORD + "," +
+                Const.USERS_LOCATION + "," + Const.USERS_GENDER + ")" +
+                "VALUES(?,?,?,?,?,?)";
+
+        try {
+        PreparedStatement preparedStatement = getDbConnection().prepareStatement(insert);
+        preparedStatement.setString(1, user.getFirstName());
+        preparedStatement.setString(2, user.getLastName());
+        preparedStatement.setString(3, user.getUserName());
+        preparedStatement.setString(4, user.getPassword());
+        preparedStatement.setString(5, user.getLocation());
+        preparedStatement.setString(6, user.getGender());
+            preparedStatement.executeUpdate();
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

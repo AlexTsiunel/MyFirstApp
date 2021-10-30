@@ -34,12 +34,14 @@ https://www.youtube.com/watch?v=Jx0DRIlm7Yo&t=84s
 https://www.youtube.com/watch?v=aC97NRrTO8E&t=363s
 Уроки #8
 https://www.youtube.com/watch?v=F-x8K0U0Cts&t=315s
-Уроки #9
+Уроки #9 - Подключение базы данных к приложению (MySQL + JDBC)
 https://www.youtube.com/watch?v=7vV6Vj-lhOM&t=547s
 Урок #10 - Подключение к базе данных (Java JDBC)
 https://www.youtube.com/watch?v=BJ2SCZEkKoQ
 Урок #11 - Добавление пользователя в базу данных
 https://www.youtube.com/watch?v=b7nc7X0-t_4
+Урок #12 - Авторизация в приложении
+https://www.youtube.com/watch?v=blP173DOnvg&t=429s
 
 
 
