@@ -33,6 +33,8 @@ public class SignUp {
 
     @FXML
     private CheckBox signUpCheckBoxMale;
+    @FXML
+    private CheckBox signUpCheckBoxFemale;
 
     @FXML
     private TextField signUpCountry;

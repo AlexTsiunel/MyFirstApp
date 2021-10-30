@@ -24,6 +24,10 @@ public class HelloApplication extends Application {
 
 
 /*
+
+https://metanit.com/java/javafx/1.1.php
+
+
 Уроки #6
 https://www.youtube.com/watch?v=Jx0DRIlm7Yo&t=84s
 Уроки #7
@@ -32,6 +36,12 @@ https://www.youtube.com/watch?v=aC97NRrTO8E&t=363s
 https://www.youtube.com/watch?v=F-x8K0U0Cts&t=315s
 Уроки #9
 https://www.youtube.com/watch?v=7vV6Vj-lhOM&t=547s
+Урок #10 - Подключение к базе данных (Java JDBC)
+https://www.youtube.com/watch?v=BJ2SCZEkKoQ
+Урок #11 - Добавление пользователя в базу данных
+https://www.youtube.com/watch?v=b7nc7X0-t_4
+
+
 
 
 
